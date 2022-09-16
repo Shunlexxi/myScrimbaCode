@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #apple-shelf{
+            background-color: red;
+            border: solid 1px white;
+            border-radius: 20px;
+            width: 500px;
+            height: 80px;
+            margin-bottom: 5px;
+        }
+
+        #orange-shelf{
+            background-color: orange;
+            border: solid 1px white;
+            border-radius: 20px;
+            width: 500px;
+            height: 80px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div id="apple-shelf"></div>
+
+    <div id="orange-shelf"></div>
+
+    <script>
+        
+
+        let fruits = ["🍎", "🍊", "🍎", "🍎", "🍊"]
+
+        let appleShelf = document.getElementById("apple-shelf")
+        let orangeShelf = document.getElementById("orange-shelf")
+
+        //MINE SOLUTION
+
+        // function showApple(){
+        //     appleShelf.textContent += "🍎"
+        //     console.log("Draw Apple")
+        // }
+
+        // function showOrange(){
+        //     orangeShelf.textContent += "🍊"
+        //     console.log("Draw orange")
+        // }
+
+        // for (let i = 0; i < fruits.length; i++){
+        //     if (fruits[i] === "🍎"){
+        //         console.log("Yes! Apple")
+        //         showApple()
+        //     }
+        //     else {console.log("Yes! Orange")
+        //     showOrange()
+        // }
+        // }
+        
+
+        //PER's
+
+        function sortFruit(){
+            for (let i = 0; i < fruits.length; i++){
+                if (fruits[i] === "🍎"){
+                    appleShelf.textContent += "🍎"
+                }
+                else if (fruits[i] === "🍊"){
+                    orangeShelf.textContent += "🍊"
+                }
+            }
+        }
+
+        sortFruit()
+        
+    </script>
+</body>
+</html>
