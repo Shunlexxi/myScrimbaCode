@@ -1,0 +1,22 @@
+
+
+#item{
+    font-weight: 800;
+    width: 50px;
+}
+
+button{
+    background-color: #fff;
+    border:  2px solid;
+    padding: 10px 0px 10px 0px;
+    color: #000;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    display: block;
+}
+
+#error-msg{
+    color: red;
+}
