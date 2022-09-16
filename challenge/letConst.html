@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+       
+        //SETTING THE STAGE
+        const player = "Per"
+        const opponent = "Shun"
+        const game = "AmazingFighter"
+
+        let points = 0
+        let hasWon = false
+
+
+        //PLAYING THE GAME
+        points += 100
+        hasWon = true
+
+
+        //ANNOUNCING THE WINNER
+        if (hasWon) {
+            console.log(`${player} got ${points} points and won the ${game} game!`)
+        }
+        else{
+            console.log(`The winner is ${opponent}! ${player} lost the game`)
+        }
+
+    </script>
+</body>
+</html>

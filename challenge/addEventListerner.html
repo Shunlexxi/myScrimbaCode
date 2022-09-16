@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        
+        #log-jane-score{
+            width: 150px;
+            margin: 5px 5px;
+            padding: 3px 3px;
+            background-color: brown;
+            color: black;
+            border: 1px solid #000; 
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <button id="log-jane-score">LOG JANE'S SCORE!</button>
+    <p id="show-score"></p>
+
+    <script>
+
+    const logJaneScore = document.getElementById("log-jane-score")
+    const showScore = document.getElementById("show-score")
+        let data = [
+            {
+                player: "Jane",
+                score: 52
+            },
+
+            {
+                player: "Mark",
+                score: 41
+            }
+        ]
+    
+    logJaneScore.addEventListener("click", function() {
+        console.log(data[0].score)
+        showScore.innerText = data[0].score
+    })
+    </script>
+</body>
+</html>
