@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        
+let myLeads = `["www.awesome.com"]`
+//myLeads is a template string at the moment
+
+//Turn the myLeads string into an array
+myLeads = JSON.parse(myLeads)
+
+//push a new value into the array
+myLeads.push("www.epiclead.com")
+
+//turn myleads array into a string
+myLeads = JSON.stringify(myLeads)
+
+//checking the type of myLead === string
+console.log(typeof myLeads)
+    </script>
+</body>
+</html>
