@@ -1,0 +1,100 @@
+
+
+
+Shortcut to comment multiple lines
+cmd + k + c
+
+
+object.innerText = 
+
+object.innerHTML = 
+
+innerText alternative MDN (Mozilla Developer Network)
+= textContent()
+
+
+
+document.querySelector("#sum-el") = selects tags, class & id
+
+
+to select same words=== select word, then, cntrl + D
+
+
+random number reverse engineering ?????????
+
+math.floor ==> removes decimal
+math.random ==> random number from 0.000 to 0.999...
+
+OBJECTS - composite/complex data types
+key-value pairs
+
+console.log(Obeject.key) --- . notation
+console.log(Obeject["key"]) --- [] notation
+
+
+CHrome Extension
+Honey Extension >> gather coupons
+Motion
+Lead Tracker
+
+Look for problems! 
+
+why stuff go over the brower
+width: 100%; 
+padding left & right : 10px;
+/* 100% + 10px + 10px */
+
+FIX ==> box-sizing: border-box;
+padding is inclusive in the 100%
+
+??? couldnt use click as a onclick function event
+
+Template strings/literal using `` and ${variable}
+
+
+.JSON => Java Script Object Notation
+
+Deploy Chrome Extension:
+	chrome://extensions/
+	Dev Mode
+	Load Unpacked
+	Select folder
+
+LocalStorage
+	stores stuffs (not lost after refreshed)
+
+//save a key-value pair in localStorage
+//localStorage.setItem("myLeads", "www.linkedin.com")
+
+//get the value logged after refreshing the page
+//console.log( localStorage.getItem("myLeads") )
+
+//clearing the localstorage
+//localStorage.clear()
+
+
+
+JSON.parse => convert string to an array
+JSON.stringify => convert from array to string
+
+
+Truthy & Falsy Statement
+
+Falsy Statement
+	false
+	0
+	""
+	null -> how developer signalies emptiness
+	undefined -> how JavaScript signalizes emptiness
+	NaN -> Not a Number
+
+
+
+Parameters are inside the function declaration.
+Arguements are outside the function declaration.
+
+
+Get Chrome active tab => Chrome API - Application Programming Interface
+
+
+
